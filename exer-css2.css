@@ -1,0 +1,49 @@
+.primdiv {
+height: 50px;
+width: 450px;
+background-color: black;
+}
+
+.menu {
+margin: 0;
+padding: 18px; 
+padding-top: 18px;
+}
+
+li {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;  
+color:white; 
+display: inline;
+padding: 18px;
+padding-left: 10px; 
+padding-right: 10px; 
+padding-top: 20px;
+}
+
+.primdiv ul ul li {
+display: block;
+margin-left: 110px;
+width: 145px;
+font-size: 15px;
+color: black;
+}
+
+
+.primdiv ul ul {
+position: relative;
+visibility: hidden;
+}
+
+.home:hover {
+background-color: red;
+padding: 18px;
+}
+
+.primdiv ul li:hover ul {
+visibility: visible;
+}
+
+.primdiv li:hover li {
+background-color: whitesmoke;
+}
